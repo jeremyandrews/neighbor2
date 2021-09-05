@@ -1,0 +1,13 @@
+[package]
+name = "neighbor2"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+anyhow = "1"
+axum = "0.2"
+http = "0.2"
+# @TODO: which features do we need...?
+tokio = { version = "1", features = ["full"] }
+# @TODO: which features do we need...?
+tower = { version = "0.4", features = ["full"] }
